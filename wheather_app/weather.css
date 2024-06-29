@@ -1,0 +1,117 @@
+.weather {
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+width: 350px;
+text-align: center;
+    height: 500px;
+background:linear-gradient(135deg,#00feba,#5b548a);
+}
+
+.search button{
+    border-radius: 20px;
+    height: 32px;
+    width: 35px;
+    border:none;
+    background-color: white;
+    cursor: pointer;
+
+}
+.search {
+    margin-top: 25px;
+
+   text-align: center;
+   
+}
+.search input{
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: white;
+    height: 30px;
+    outline: none;
+    background-color:white;
+    text-align: center;
+
+}
+
+#weather-temp{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-family: tahoma;
+    font-size: 30px;
+    font-weight: bold;
+}
+#wheater-name{
+    
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+#humidity{
+    display: flex;
+
+    position: absolute;
+    
+    top:388px;
+    left:120px;
+}
+#humidity p {
+    color: white;
+    font-size: 20px;
+    font-family: tahoma;
+    margin-left: 11px;
+    font-weight: bold;
+
+}
+#humidity i{
+margin-top:20px
+}
+.data-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: left;
+    align-items: left;
+}
+.wind-container{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   gap: 40px;
+   margin-top: -20px;
+   justify-content: center;
+}
+.wind-container-1{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   gap: 10px;
+   justify-content: center;
+}
+#wind {
+    
+    color: black;
+    font-size: 16px;
+    font-family: tahoma;
+    font-weight: bold;
+  
+}
+#wi,#hu {
+    
+    color: white;
+    font-size: 16px;
+    font-family: tahoma;
+    font-weight: bold;
+  
+}
+.sun i{
+margin-top: 40px;
+    font-size: 5rem;
+
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Check</title>
+  <script src="weather.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css" />
+  <link rel="stylesheet" href="weather.css" />
+</head>
+
+<body id="anas">
+  <div class="weather">
+    <div class="search">
+      <input type="text" value="new york" id="pass" placeholder="Enter city" />
+
+      <button id="but"><i class="fas fa-search"></i></button>
+    </div>
+
+    <div class="sun">
+      <i class="wi wi-day-sunny" style="color: orange"></i>
+    </div>
+
+    <div id="weather-temp">284.44 C</div>
+
+    <div id="wheater-name">New York</div>
+
+    <div class="data-container">
+      <div class="wind-container">
+        <p id="wind">humidity :</p>
+        <div class="wind-container-1">
+          <i class="fas fa-tint" style="color: white; font-size: 1.5rem"> </i>
+          <p id="hu">78%</p>
+        </div>
+      </div>
+  
+      <div class="wind-container">
+        <p id="wind">wind :</p>
+        <div class="wind-container-1">
+          <i class="wi wi-strong-wind" style="color: white; font-size: 1.5rem"></i>
+          <p id="wi">2.24 Km/h</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
